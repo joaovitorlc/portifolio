@@ -1,0 +1,34 @@
+html{
+  background-color: black;
+  color: green;
+  padding: 20px;
+}
+h1, .divdescricao{
+  justify-content: center;
+  display: flex;
+}
+.imagem{
+  text-align: center;
+}
+.imagemperfil{
+  width:auto;
+  height:290px;
+  border-radius: 2000px;
+  margin: 30px;
+}
+.resumoperfil{
+  font-size: 19px;
+}
+.segundapagina{
+  background-color: green;  
+  width: 100%;
+  height: 50px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+a{
+  text-decoration: none;
+}
