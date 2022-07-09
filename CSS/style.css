@@ -139,6 +139,7 @@ footer{
   footer{
     flex-wrap: wrap-reverse;
     font-size: 0px;
+    padding: 20px;
   }
   .duastelas{
     flex-direction: column;
@@ -159,6 +160,7 @@ footer{
   footer{
     font-size: 6px;
     flex-direction: column;
+    padding: 20px;
   }
   .duastelas{
     height: 100%;
@@ -169,6 +171,7 @@ footer{
   .parte1_2 img, .parte2_2 img, .parte3_2 img{
     min-width: 0;
   }
+  
 }
 
 @media (max-width:400px) {
@@ -180,6 +183,7 @@ footer{
     font-size: 10px;
     display: flex;
     flex-direction: column;
+    padding: 20px;
   }
   .imagemperfil{
     width:auto;
