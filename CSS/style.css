@@ -100,9 +100,9 @@ a:hover{
   display: flex;
   align-items: center;
 }
-.parte1_1, .parte2_1, .parte3_1{
+.parte1_1, .parte2_1, .parte3_1, .parte2_2 p{
   text-align: center;
-  font-size: 30px;
+  font-size: 23px;
   margin: 15px;
 }
 .parte1_2, .parte2_2, .parte3_2{
