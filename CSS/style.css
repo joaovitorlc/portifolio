@@ -164,7 +164,7 @@ footer{
     font-size: 0px;
     padding: 20px;
   }
-  .duastelas{
+  .projetos{
     flex-direction: column;
     height: 100%;
   }
@@ -185,7 +185,7 @@ footer{
     flex-direction: column;
     padding: 20px;
   }
-  .duastelas{
+  .projetos{
     height: 100%;
   }
   .parte1, .parte2, .parte3{
@@ -199,7 +199,30 @@ footer{
 
 @media (max-width:400px) {
 
-  .duastelas{
+  .projetos{
+    height: 100%;
+  }
+  footer{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .imagemperfil{
+    height:150px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .parte1, .parte2, .parte3{
+    flex-direction: column;
+  }
+  .parte1_2 img, .parte2_2 img, .parte3_2 img{
+    min-width: 0;
+  }
+}
+
+@media (max-width:0px) {
+  .projetos{
     height: 1200px;
   }
   footer{
