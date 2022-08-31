@@ -87,12 +87,12 @@ a:hover{
   height: 100%;
   flex-direction: column;
 }
-.parte1_2 img, .parte2_2 img, .parte3_2 img{
+.parte1_2 img, .parte2_2 img, .parte3_2 img, .parte4_2 img{
   width: 100%;
   min-width: 600px;
   max-width: 800px;
 }
-.parte1, .parte2, .parte3{
+.parte1, .parte2, .parte3, .parte4{
   flex: 1;
   border: 3px solid rgb(132, 133, 132);
   font-size: 30px;
@@ -101,21 +101,21 @@ a:hover{
   display: flex;
   align-items: center;
 }
-.parte1_1, .parte2_1, .parte3_1, .parte2_2 p{
+.parte1_1, .parte2_1, .parte3_1, .parte2_2 p, .parte4_1{
   text-align: center;
   font-size: 23px;
   margin: 15px;
 }
-.parte1_2, .parte2_2, .parte3_2{
+.parte1_2, .parte2_2, .parte3_2, .parte4_2{
   text-align: center;
   font-size: 30px;
   margin: 20px;
 }
-.parte1_2 a, .parte2_2 a, .parte3_2 a{
+.parte1_2 a, .parte2_2 a, .parte3_2 a, .parte4_2 a{
   color: #00B0DB;
 
 }
-.parte1_2:hover, .parte2_1:hover, .parte3_2:hover{
+.parte1_2:hover, .parte2_1:hover, .parte3_2:hover, .parte4_2:hover{
   transform: scale(1.05);
 }
 
@@ -172,10 +172,10 @@ footer{
   .imagemdorodape{
     height: 70px;
   }
-  .parte1, .parte2, .parte3{
+  .parte1, .parte2, .parte3, .parte4{
     flex-direction: column;
   }
-  .parte1_2 img, .parte2_2 img, .parte3_2 img{
+  .parte1_2 img, .parte2_2 img, .parte3_2 img, .parte4_2 img{
     min-width: 0;
   }
 }
@@ -189,10 +189,10 @@ footer{
   .projetos{
     height: 100%;
   }
-  .parte1, .parte2, .parte3{
+  .parte1, .parte2, .parte3, .parte4{
     flex-direction: column;
   }
-  .parte1_2 img, .parte2_2 img, .parte3_2 img{
+  .parte1_2 img, .parte2_2 img, .parte3_2 img, .parte4_2 img{
     min-width: 0;
   }
   
@@ -214,10 +214,10 @@ footer{
     margin: auto;
     margin-top: 20px;
   }
-  .parte1, .parte2, .parte3{
+  .parte1, .parte2, .parte3, .parte4{
     flex-direction: column;
   }
-  .parte1_2 img, .parte2_2 img, .parte3_2 img{
+  .parte1_2 img, .parte2_2 img, .parte3_2 img, .parte4_2 img{
     min-width: 0;
   }
 }
@@ -236,10 +236,10 @@ footer{
     width:auto;
     height:100%;
   }
-  .parte1, .parte2, .parte3{
+  .parte1, .parte2, .parte3, .parte4{
     flex-direction: column;
   }
-  .parte1_2 img, .parte2_2 img, .parte3_2 img{
+  .parte1_2 img, .parte2_2 img, .parte3_2 img, .parte4_2 img{
     min-width: 0;
   }
 }
